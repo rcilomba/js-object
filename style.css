@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+font-family: 'Roboto', sans-serif;
+
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+}
+
+.services__box{
+    
+}
+
+
+
+
+.service{
+    text-align: center;
+}
+
+.services__image{
+    width: 60%;
+   
+
+}
+
+.services__headline{
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.services__text{
+    
+    font-size: 16px;
+    color: grey;
+}
+
+
+.services__linktext{
+    
+    color: #F78065;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
